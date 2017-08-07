@@ -1,8 +1,9 @@
-# [BDManager v1.0](https://t.me/BeyondTeam)
-An advanced administration bot based on BDMessenger
+# [Star Wars-Api](https://t.me/star_wars)
+سورس *Star Wars-Api v2* 
+الذي يعمل على مجموعات تصل *10k* 
 
-[![Bot API](http://img.shields.io/badge/Bot%20API-v3.2-00aced.svg)](https://core.telegram.org/bots/api)
-[![https://t.me/BeyondTeam](https://img.shields.io/badge/💬%20Telegram-BeyondTeam-00aced.svg)](https://t.me/BeyondTeam)
+[Developer](http:/t.me/iidii)]
+[Channel](https://t.me/mk_team)
 
 * * *
 
@@ -12,15 +13,31 @@ An advanced administration bot based on BDMessenger
 * Put Your `Telegram ID` At Line `5 & 186` in bot.lua
 
 # Installation
+'طريقة التنصيب لسورس *Star Wars-Api v2*
 
-```sh
-# Let's install the bot.
-cd $HOME
-git clone https://github.com/BeyondTeam/BDManager.git
-cd BDManager
-chmod +x beyond.sh
-./beyond.sh install
-./beyond.sh 
+sudo apt-get update 
+------------------
+ورهأَ خلي  
+
+redis-server
+---------------
+تركه مفتوح وافتح ترنمال ثاني
+
+
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y —force-yes
+
+----------------
+
+git clone https://github.com/Marcelo-Mk/StarWats-Api.git
+-----------
+cd StarWars-Api
+--------
+chmod +x wars.sh
+----------
+./wars.sh install
+---------
+
+./wars.sh 
 
 
 # For Auto Launch:
@@ -29,10 +46,10 @@ tmux
 ./autobd.sh
 # End ;)
 ```
-### One command
-To install everything in one command, use:
+
+  ويمكنك لتنصيب بكود واحد
 ```sh
-cd $HOME && git clone https://github.com/BeyondTeam/BDManager.git && cd BDManager && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
+cd $HOME && git clone https://github.com/Marcelo-Mk/StarWats-Api.git && cd StarWars-Api && chmod +x wars.sh && ./wars.sh install && ./beyond.sh
 ```
 
 
@@ -48,18 +65,9 @@ More information [Beyond Global Chat](https://t.me/joinchat/AAAAAEGaKOxC8K6cJ3b
 
 # Developers!
 
-[SoLiD](https://github.com/solid021) ([Telegram](https://t.me/SoLiD))
+[Marcelo Mk](https://t.me/iidii)
 
-[MAKAN](https://github.com/makanj) ([Telegram](https://t.me/MAKAN))
+[Ali Programmer](https://t.me/xDrrr)
 
-[ToOfan](https://github.com/To0fan) ([Telegram](https://t.me/ToOfan))
+[Group Support StarWars-Api](https://t.me/joinchat/Fhz2t0IcBHGXM3_-5QNDvA)
 
-[TheNIS](https://t.me/bypa3r)
-
-### Our Telegram Channel:
-
-[@BeyondTeam](https://t.me/BeyondTeam)
-
-### Our Forum:
-
-[Beyond Team Forum](https://Beyond-Dev.ir)
