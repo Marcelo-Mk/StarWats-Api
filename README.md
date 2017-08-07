@@ -49,17 +49,17 @@ tmux
 
   ويمكنك لتنصيب بكود واحد
 ```sh
-cd $HOME && git clone https://github.com/Marcelo-Mk/StarWats-Api.git && cd StarWars-Api && chmod +x wars.sh && ./wars.sh install && ./beyond.sh
+cd $HOME && git clone https://github.com/Marcelo-Mk/StarWats-Api.git && cd StarWars-Api && chmod +x wars.sh && ./wars.sh install && ./wars.sh
 ```
 
 
 # Support and Development
 
-More information [Beyond Global Chat](https://t.me/joinchat/AAAAAEGaKOxC8K6cJ3bCcw)
+More information [Group Support StarWars-Api](https://t.me/joinchat/Fhz2t0IcBHGXM3_-5QNDvA)
 
 # Special thanks to
 
-`Beyond Team Members`
+`MK Team Members`
 
 * * *
 
@@ -69,5 +69,4 @@ More information [Beyond Global Chat](https://t.me/joinchat/AAAAAEGaKOxC8K6cJ3b
 
 [Ali Programmer](https://t.me/xDrrr)
 
-[Group Support StarWars-Api](https://t.me/joinchat/Fhz2t0IcBHGXM3_-5QNDvA)
 
