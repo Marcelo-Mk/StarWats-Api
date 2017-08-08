@@ -1,8 +1,8 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "TOKEN"
+bot_token = "TOKEN" --هنا تخلي التوكن
 send_api = "https://api.telegram.org/bot"..bot_token
-sudo_id = 157059515
+sudo_id = 370996919 --هنا تخلي الايدي
 http = require('socket.http')
 https = require('ssl.https')
 URL = require('socket.url')
@@ -15,7 +15,7 @@ JSON = (loadfile "./libs/dkjson.lua")()
 serpent = (loadfile "./libs/serpent.lua")()
 require('./bot/methods')
 require('./bot/utils')
--- @BeyondTeam
+-- @Mk_Team
 function bot_run()
 	bot = nil
 	while not bot do
@@ -182,30 +182,26 @@ if not tostring(SUDO):match('%d+') then
     "tools",
     "banhammer"
     },
-    sudo_users = {157059515, SUDO},--Sudo users
+    sudo_users = {370996919, SUDO},--ايدي المطور
     master_id = SUDO, 
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[*》Beyond Manager V1.0*
-`》An advanced administration bot based on` *BDMessenger*
+    info_text = [[*Star Wars Api v2 [AR]* 
 
-》[Beyond Manager](https://github.com/BeyondTeam/BDManager)
+سورس Star Wars-Api يعمل على مجموعات تصل *10K* 
 
-*》Admins :*
-*》Founder & Developer :* [SoLiD](Telegram.Me/SoLiD)
-_》Developer & Sponser :_ [MAKAN](Telegram.Me/MAKAN)
-_》Developer :_ [ToOfan](Telegram.Me/ToOfan)
-_》Developer :_ [TheNIS](Telegram.Me/bypa3r)
+> [Star Wars-Api](https://github.com/Marcelo-Mk/StarWats-Api)
 
-*》Special thanks to :*
-`Beyond Team Members`
+The Developers > Star Wars-Api 
 
-*》Our channel :*
-》[BeyondTeam](Telegram.Me/BeyondTeam)
+> [Marcelo Mk](t.me/iidii)
 
-*》Our Site :*
-[Beyond Team Forum](beyond-dev.ir)
+>[Ali Programmer](t.me/xDrrr)
+
+>[Channel](T.me/mk_team)
+
+>[The Grouo support Star Wars-Api](https://t.me/joinchat/Fhz2t0IcBHGXM3_-5QNDvA)
 ]],
   }
   serialize_to_file(config, './data/config.lua')
