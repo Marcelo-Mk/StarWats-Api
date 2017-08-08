@@ -49,14 +49,14 @@ function logo_play() {
 	echo -e "\e[0m"
 }
 
-function beyondteam() {
+function MkTeam() {
 	echo -e "\e[0m"
 	green "     >>>>                       We Are Not Attacker                             "
 	green "     >>>>                       We Are Not Alliance                             "
 	white "     >>>>                       We Are Programmer                               "
 	white "     >>>>                       We Are The Best                                 "
 	red   "     >>>>                       We Are Family                                   "
-	red   "     >>>>                       @BeyondTeam                                     "
+	red   "     >>>>                       @Mk_Team                                     "
 	echo -e "\e[0m"
 }
 
@@ -87,6 +87,6 @@ else
 	print_logo
 	beyondteam
 	logo_play
-	green "Beyond Manager Bot running..."
+	green "Star Wars Bot running..."
 	lua ./bot/bot.lua
 fi
