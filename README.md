@@ -28,7 +28,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 ----------------
 
-git clone https://github.com/Marcelo-Mk/StarWats-Api.git
+git clone https://github.com/Marcelo-Mk/StarWats-Api
 -----------
 cd StarWars-Api
 --------
@@ -37,7 +37,7 @@ chmod +x wars.sh
 ./wars.sh install
 ---------
 
-./wars.sh 
+*./wars.sh *
 
 
 # For Auto Launch:
